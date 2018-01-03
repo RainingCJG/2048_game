@@ -1,0 +1,18 @@
+/*重置样式*/
+body,html,div,h1,a,header,ul,li{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font: 16px/1.426 Arial;
+}
+
+a{
+	color: #000;
+	text-decoration: none;
+}
+
+ul,li{
+	list-style: none;
+}

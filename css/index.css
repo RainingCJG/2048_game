@@ -1,0 +1,54 @@
+/*表格*/
+.header{
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.header h1{
+	font-size: 60px;
+}
+
+.header .newgamebutton{
+	display: block;
+	margin: 20px auto;
+	width: 100px;
+	padding: 10px 10px;
+	background-color: #8f7a66;
+	font-family: Arial;
+	color: #fff;
+	border-radius: 10px;
+}
+
+.header .newgamebutton:hover{
+	background-color:#9f8b77;
+}
+
+.header div{
+	font-size: 25px;
+	margin: 20px auto;
+}
+
+/*2048表格*/
+#grid2048{
+	position: relative;
+	width: 420px;
+	height: 420px;
+	margin: 0 auto;
+	border-radius: 20px;
+	background-color: #bbada0;
+}
+
+#grid2048 li{
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	border-radius: 10px;
+	background-color: #ccc0b3;
+}
+
+#grid2048 .number_cell{
+	font-size: 30px;
+	line-height: 80px;
+	text-align: center;
+}
